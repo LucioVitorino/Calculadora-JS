@@ -1,0 +1,62 @@
+.container{
+    background:linear-gradient(45deg, black, crimson );
+    width: 100%;
+    height: 100vh;
+    padding: 5px;
+}
+
+.lv{
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+}
+
+.calculadora{
+    margin: 0 auto ;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(24, 24, 36);
+    border-radius: 8px;
+}
+.calT{
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+}
+.result{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    margin: 20px auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 25px;
+    padding: 5px;
+}
+.table{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.table button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(24, 24, 36);
+    font-size: 18px;
+    border: 15px solid rgb(24, 24, 36);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow:0px 0px 5px 5px rgba(111, 111, 111, 0.2);
+}
+table .sinal{
+    color:aqua;
+}
+table .numero{
+    color: white;
+}

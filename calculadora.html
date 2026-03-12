@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="lv">Lúcio Vitorno</h1>
+        <div class="calculadora">
+            <h1 class="calT">Calculadora</h1>
+            <p class="result"></p>
+            <table class="table">
+                <tr>
+                    <td><button class="sinal" onclick = "correction()">AC</button></td>
+                    <td><button class="sinal" onclick = "clean()">DE</button></td>
+                    <td><button class="sinal" onclick = "insert('.')">.</button></td>
+                    <td><button class="sinal" onclick="insert('/')"c>/</button></td>
+                </tr>
+                 <tr>
+                    <td><button class="numero" onclick="insert(7)">7</button></td>
+                    <td><button class="numero" onclick="insert(8)">8</button></td>
+                    <td><button class="numero" onclick="insert(9)">9</button></td>
+                    <td><button class="sinal" onclick="insert('*')">x</button></td>
+                </tr>
+                 <tr>
+                    <td><button class="numero" onclick="insert(4)">4</button></td>
+                    <td><button class="numero" onclick="insert(5)">5</button></td>
+                    <td><button class="numero" onclick="insert(6)">6</button></td>
+                    <td><button class="sinal" onclick="insert('-')">-</button></td>
+                </tr>
+                 <tr>
+                    <td><button class="numero" onclick="insert(1)">1</button></td>
+                    <td><button class="numero" onclick="insert(2)">2</button></td>
+                    <td><button class="numero" onclick="insert(3)">3</button></td>
+                    <td><button class="sinal" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="numero" onclick="insert(0)">0</button></td>
+                    <td><button class="numero" onclick="insert('00')">00</button></td>
+                    <td colspan="2"><button class="sinal" onclick = "equal()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
